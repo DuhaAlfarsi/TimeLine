@@ -14,16 +14,16 @@ body {
   font-family: poppins, sans-serif;
   max-width: 800px;
   width: 100%;
-  margin: 3rem auto;
+  margin: auto;
   font-size: 1.2rem;
   background: #f7f9fc;
   height: 210vh;
+  padding: 3rem;
 }
 section {
   display: grid;
   place-items: center;
   position: relative;
-  height: 250vh;
 }
 
 section ul li {
@@ -59,6 +59,7 @@ section ul li:hover {
   section ul li {
     width: 50%;
     position: relative;
+
   }
 
   section ul li:nth-child(odd) {
